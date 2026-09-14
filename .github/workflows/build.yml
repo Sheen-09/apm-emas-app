@@ -21,10 +21,8 @@ jobs:
       run: npm install
 
     - name: Build Electron App
-    - name: Build Electron App
-  env:
-    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run: npm run build-win
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run build-win
 
     - name: Upload EXE Artifact
