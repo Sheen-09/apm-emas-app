@@ -1,0 +1,14 @@
+{
+  "name": "apm-emas-pegadaian",
+  "version": "1.0.0",
+  "description": "Aplikasi Windows APM Emas",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
