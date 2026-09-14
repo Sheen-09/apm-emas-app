@@ -7,6 +7,17 @@
     "start": "electron .",
     "build-win": "electron-builder --win --x64"
   },
+  "build": {
+    "appId": "com.pegadaian.apmemas",
+    "win": {
+      "target": "nsis"
+    },
+    "files": [
+      "main.js",
+      "APP APM EMAS Final (1).html",
+      "package.json"
+    ]
+  },
   "devDependencies": {
     "electron": "^29.0.0",
     "electron-builder": "^24.13.3"
